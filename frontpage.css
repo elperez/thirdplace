@@ -1,44 +1,73 @@
+body {
+  background-color:  #F4A460;
+}
+
 header {
-  background-image: url(images/Test3.jpg);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  background-image: url(images/placeholder.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  margin: -8px -8px 0px;
+  padding: 8px -8px 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.frontBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/Test3.jpg);
+  background-size: 100% 100%;
   color: white;
   height: 350px;
-  width: 99.9%;
-  text-align: center;
-  vertical-align: middle;
+  margin: 0px -8px 0px;
+  padding: 0px -8px 0px;
 }
 
 .pageTitle {
-  margin: auto;
-  width: 50%;
-  height: 50%;
+  text-align: center;
 }
 
-button {
-  position: relative;
-  float: right;
-  right: 7px;
-  top: 7px;
+.login {
   height: 30px;
-  width: 70px;
+  width: 80px;
   font-size: 20px;
-  background-color: black;
+  background-color: blue;
   color: white;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 15px;
 }
 
-button:hover {
-  background-color: white;
+.login:hover {
+  background-color: lightblue;
   color: black;
 }
 
-.interestingArticles {
+.todo {
   padding-top: 70px;
   display: flex;
   justify-content: space-around;
 }
 
-img {
+.article {
+  width: 30%;
+  text-align: center;
+}
+
+.mainImg {
   height: 300px;
   width: 300px;
+}
+
+.logos {
+  height: 100px;
+  width: 100px;
 }
