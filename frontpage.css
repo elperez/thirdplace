@@ -36,7 +36,7 @@ h2 {
   text-align: center;
 }
 
-.login {
+button {
   height: 30px;
   width: 80px;
   font-size: 20px;
@@ -46,7 +46,7 @@ h2 {
   border-radius: 15px;
 }
 
-.login:hover {
+button:hover {
   background-color: lightblue;
   color: black;
 }
